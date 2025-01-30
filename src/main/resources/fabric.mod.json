@@ -3,9 +3,9 @@
 	"id": "layered-origins",
 	"version": "${version}",
 	"name": "Layered Origins",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Origins addon to add many combinations with relatively few origins by using layers.",
 	"authors": [
-		"Me!"
+		"Rocnix"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -29,7 +29,8 @@
 		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"origins": "1.10.0"
 	},
 	"suggests": {
 		"another-mod": "*"
