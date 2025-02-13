@@ -1,0 +1,26 @@
+{
+  "order": 1,
+  "origins": [
+    "layered-origins:size/choose_later",
+    "layered-origins:size/normal",
+
+    "layered-origins:size/short",
+    "layered-origins:size/tall",
+
+    "layered-origins:size/shorter",
+    "layered-origins:size/taller",
+
+    "layered-origins:size/shortest",
+    "layered-origins:size/tallest",
+
+    "layered-origins:size/shortester",
+    "layered-origins:size/tallester",
+
+    "layered-origins:size/shortestest",
+    "layered-origins:size/tallestest",
+
+    "layered-origins:size/random"
+  ],
+  "missing_name": "No Height Found",
+  "missing_description": "You're at the default height. Pick a new one!"
+}

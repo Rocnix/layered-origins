@@ -1,0 +1,42 @@
+{
+  "layer.layered-origins.size.name": "Height",
+
+  "origin.layered-origins.size/choose_later.name": "Choose Later",
+  "origin.layered-origins.size/choose_later.description": "You'll have the default minecraft height for now, but can replace this origin with another later.",
+
+  "origin.layered-origins.size/normal.name": "Normal",
+  "origin.layered-origins.size/normal.description": "Scale factor of 1. 1.8 blocks tall, sneak at 1.5.",
+
+  "origin.layered-origins.size/short.name": "Short",
+  "origin.layered-origins.size/short.description": "Scale factor of 0.95. 1.71 blocks tall, sneak at 1.425.",
+
+  "origin.layered-origins.size/tall.name": "Tall",
+  "origin.layered-origins.size/tall.description": "Scale factor of 1.05. 1.89 blocks tall, sneak at 1.575.",
+
+  "origin.layered-origins.size/shorter.name": "Shorter",
+  "origin.layered-origins.size/shorter.description": "Scale factor of 0.9. 1.62 blocks tall, sneak at 1.35.",
+
+  "origin.layered-origins.size/taller.name": "Taller",
+  "origin.layered-origins.size/taller.description": "Scale factor of 1.1. 1.98 blocks tall, sneak at 1.65.",
+
+  "origin.layered-origins.size/shortest.name": "Shortest",
+  "origin.layered-origins.size/shortest.description": "Scale factor of 0.8. 1.44 blocks tall, sneak at 1.2. Easy to punt.",
+
+  "origin.layered-origins.size/tallest.name": "Tallest",
+  "origin.layered-origins.size/tallest.description": "Scale factor of 1.2. 2.16 blocks tall, sneak at 1.8. You can reach the top shelf.",
+
+  "origin.layered-origins.size/shortester.name": "Shortester",
+  "origin.layered-origins.size/shortester.description": "Scale factor of 0.5. 0.9 blocks tall, sneak at 0.75. You're a bit fragile.",
+
+  "origin.layered-origins.size/tallester.name": "Tallester",
+  "origin.layered-origins.size/tallester.description": "Scale factor of 1.3. 2.34 blocks tall, sneak at 1.95. You're a bit tankier than most.",
+
+  "origin.layered-origins.size/shortestest.name": "Shortestest",
+  "origin.layered-origins.size/shortestest.description": "Scale factor of 0.25. 0.45 blocks tall, sneak at 0.375. You weigh practically nothing.",
+
+  "origin.layered-origins.size/tallestest.name": "Tallestest",
+  "origin.layered-origins.size/tallestest.description": "Scale factor of 1.5. 2.7 blocks tall, sneak at 2.25. Sorry about doors.",
+
+  "origin.layered-origins.size/random.name": "Random",
+  "origin.layered-origins.size/random.description": "Surely this will randomize your height in a sensible way."
+}

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "layered-origins:size/tallest-1.2"
+  ],
+  "icon": {
+    "item": "minecraft:player_head"
+  },
+  "order": 3,
+  "impact": 1
+}

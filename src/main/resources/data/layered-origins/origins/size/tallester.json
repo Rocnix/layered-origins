@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "layered-origins:size/tallester-1.3"
+  ],
+  "icon": {
+    "item": "minecraft:player_head"
+  },
+  "order": 1,
+  "impact": 2
+}

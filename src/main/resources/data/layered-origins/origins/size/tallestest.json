@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "layered-origins:size/tallestest-1.5"
+  ],
+  "icon": {
+    "item": "minecraft:player_head"
+  },
+  "order": 3,
+  "impact": 2
+}
