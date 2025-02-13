@@ -1,6 +1,8 @@
 {
   "powers": [
-    "layered-origins:size/shortester-0.5"
+    "layered-origins:size/shortester-0.5",
+    "layered-origins:size/increase_knockback",
+    "layered-origins:size/decrease_health_2"
   ],
   "icon": {
     "item": "minecraft:player_head"

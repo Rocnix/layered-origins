@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Lose Two Hearts",
+    "attribute": "minecraft:generic.max_health",
+    "value": -4,
+    "operation": "addition"
+  }
+}

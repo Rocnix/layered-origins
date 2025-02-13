@@ -1,6 +1,9 @@
 {
   "powers": [
-    "layered-origins:size/shortestest-0.25"
+    "layered-origins:size/shortestest-0.25",
+    "layered-origins:size/increase_knockback",
+    "layered-origins:size/weightless",
+    "layered-origins:size/decrease_health_4"
   ],
   "icon": {
     "item": "minecraft:player_head"

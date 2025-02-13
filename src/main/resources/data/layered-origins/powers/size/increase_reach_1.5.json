@@ -1,0 +1,23 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "name": "Tallestest Reach block reach",
+      "attribute": "reach-entity-attributes:reach",
+      "value": 1.5,
+      "operation": "addition"
+    },
+    {
+      "name": "Tallestest Reach entity reach",
+      "attribute": "reach-entity-attributes:attack_range",
+      "value": 1.5,
+      "operation": "addition"
+    },
+    {
+      "name": "Tallestest speed increase",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.04,
+      "operation": "addition"
+    }
+  ]
+}

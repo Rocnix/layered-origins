@@ -1,0 +1,9 @@
+{
+  "type": "origins:phasing",
+  "render_type": "blindness",
+  "view_distance": 10,
+  "block_condition": {
+    "type": "origins:in_tag",
+    "tag": "minecraft:pressure_plates"
+  }
+}

@@ -38,5 +38,31 @@
   "origin.layered-origins.size/tallestest.description": "Scale factor of 1.5. 2.7 blocks tall, sneak at 2.25. Sorry about doors.",
 
   "origin.layered-origins.size/random.name": "Random",
-  "origin.layered-origins.size/random.description": "Surely this will randomize your height in a sensible way."
+  "origin.layered-origins.size/random.description": "Surely this will randomize your height in a sensible way.",
+
+
+
+  "power.layered-origins.size/decrease_health_2.name": "Fragile",
+  "power.layered-origins.size/decrease_health_2.description": "You have one fewer heart of health.",
+
+  "power.layered-origins.size/decrease_health_4.name": "Tiny",
+  "power.layered-origins.size/decrease_health_4.description": "You have two fewer hearts of health.",
+
+  "power.layered-origins.size/increase_health.name": "Sturdy",
+  "power.layered-origins.size/increase_health.description": "You have an extra heart of health.",
+
+  "power.layered-origins.size/increase_knockback.name": "Puntable",
+  "power.layered-origins.size/increase_knockback.description": "Getting hit might send you flying.",
+
+  "power.layered-origins.size/increase_reach_0.5.name": "Long Arms",
+  "power.layered-origins.size/increase_reach_0.5.description": "You can reach blocks and entities from half a block farther away.",
+
+  "power.layered-origins.size/increase_reach_1.0.name": "Longer Arms",
+  "power.layered-origins.size/increase_reach_1.0.description": "You can reach blocks and entities from a block farther away.",
+
+  "power.layered-origins.size/increase_reach_1.5.name": "Long Limbs",
+  "power.layered-origins.size/increase_reach_1.5.description": "You can reach blocks and entities from a block and a half farther away, and can run slightly faster.",
+
+  "power.layered-origins.size/weightless.name": "Weightless",
+  "power.layered-origins.size/weightless.description": "You cannot trigger pressure plates."
 }

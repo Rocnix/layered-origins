@@ -1,0 +1,17 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "name": "Tallest Reach block reach",
+      "attribute": "reach-entity-attributes:reach",
+      "value": 0.5,
+      "operation": "addition"
+    },
+    {
+      "name": "Tallest Reach entity reach",
+      "attribute": "reach-entity-attributes:attack_range",
+      "value": 0.5,
+      "operation": "addition"
+    }
+  ]
+}
