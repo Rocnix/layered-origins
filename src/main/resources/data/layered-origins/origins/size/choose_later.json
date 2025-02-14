@@ -1,5 +1,7 @@
 {
-  "powers": [],
+  "powers": [
+    "layered-origins:size/choose_later"
+  ],
   "icon": {
     "item": "minecraft:player_head"
   },

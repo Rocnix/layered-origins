@@ -41,6 +41,11 @@
   "origin.layered-origins.size/random.description": "Surely this will randomize your height in a sensible way.",
 
 
+  "power.layered-origins.size/chaos.name": "Height Randomization",
+  "power.layered-origins.size/chaos.description":  "It has to make sense, right?",
+
+  "power.layered-origins.size/choose_later.name": "Placeholder Height",
+  "power.layered-origins.size/choose_later.description": "Select a height by going to your View Origin menu (defaults to O), or by relogging.",
 
   "power.layered-origins.size/decrease_health_2.name": "Fragile",
   "power.layered-origins.size/decrease_health_2.description": "You have one fewer heart of health.",

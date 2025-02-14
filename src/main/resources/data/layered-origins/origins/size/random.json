@@ -1,5 +1,7 @@
 {
-  "powers": [],
+  "powers": [
+    "layered-origins:size/chaos"
+  ],
   "icon": {
     "item": "minecraft:player_head"
   },
