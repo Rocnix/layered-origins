@@ -1,0 +1,8 @@
+{
+  "order": 1,
+  "origins": [
+    "layered-origins:affinity/choose_later"
+  ],
+  "missing_name": "No Affinity Found",
+  "missing_description": "You're don't have a preferred environment. Pick a new one!"
+}

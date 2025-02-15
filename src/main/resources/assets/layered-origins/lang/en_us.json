@@ -1,4 +1,15 @@
 {
+  "effect.layered-origins.good_environment": "Good Environment",
+  "effect.layered-origins.bad_environment": "Bad Environment",
+
+
+  "layer.layered-origins.affinity.name": "Habitat",
+
+  "origin.layered-origins.affinity/choose_later.name": "Choose Later",
+  "origin.layered-origins.affinity/choose_later.description": "You'll have no environmental preferences for now, but can replace this origin with another later.",
+
+
+
   "layer.layered-origins.size.name": "Height",
 
   "origin.layered-origins.size/choose_later.name": "Choose Later",
