@@ -4,7 +4,7 @@
     "layered-origins:movement/fly_dart"
   ],
   "icon": {
-    "item": "minecraft:clock"
+    "item": "minecraft:rocket"
   },
   "order": 0,
   "impact": 1

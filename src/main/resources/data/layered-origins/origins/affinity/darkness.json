@@ -4,7 +4,7 @@
     "layered-origins:affinity/environment/hindered_by_sunlight"
   ],
   "icon": {
-    "item": "minecraft:player_head"
+    "item": "minecraft:soul_lantern"
   },
   "order": 0,
   "impact": 2

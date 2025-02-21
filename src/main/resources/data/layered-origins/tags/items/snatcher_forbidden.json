@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#c:shields",
+    "#c:bows",
+    "#c:spears",
+    "#origins:ranged_weapons"
+  ]
+}

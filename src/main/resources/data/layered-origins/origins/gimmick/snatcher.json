@@ -1,6 +1,7 @@
 {
   "powers": [
-    "layered-origins:gimmick/grab_mob"
+    "layered-origins:gimmick/grab_mob",
+    "layered-origins:gimmick/snatcher_forbid_item_use"
   ],
   "icon": {
     "item": "minecraft:lead"
