@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#origins:natural_stone",
+    "#minecraft:mineable/shovel"
+  ]
+}

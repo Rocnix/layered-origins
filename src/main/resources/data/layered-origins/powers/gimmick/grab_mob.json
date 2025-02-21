@@ -1,0 +1,59 @@
+{
+  "description": "TODO: modify render of mount, add restriction on attack type, add restriction on entity quantity",
+  "type": "origins:multiple",
+  "force_dismount": {
+    "type": "origins:active_self",
+    "key": {
+      "key": "key.origins.primary_active"
+    },
+    "entity_action": {
+      "type": "origins:passenger_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:revoke_power",
+            "power": "layered-origins:gimmick/transparent_ephemeral",
+            "source": "layered-origins:grab_mob"
+          },
+          {
+            "type": "origins:dismount"
+          }
+        ]
+      }
+    }
+  },
+  "pickup": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:invert",
+          "action": {
+            "type": "origins:mount"
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:grant_power",
+            "power": "layered-origins:gimmick/transparent_ephemeral",
+            "source": "layered-origins:grab_mob"
+          }
+        }
+      ]
+    }
+  },
+  "prevent_rider_attack": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "name": "immune to rider",
+      "operation": "set_total",
+      "value": 0
+    },
+    "bientity_condition": {
+      "type": "origins:riding"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Temporary Transparency",
+  "description": "This power is applied to entities being carried by the grab_mob power and shouldn't have a visible description. It makes the entity mostly transparent, as that was easier than modifying hitboxes for every potential size of mount, and removes itself if it notices the entity has been dismounted for more than a few seconds.",
+  "type": "origins:multiple",
+  "transparency": {
+    "type": "origins:model_color",
+    "alpha": 0.3
+  },
+  "remove": {
+    "type": "origins:action_over_time",
+    "interval": 150,
+    "entity_action": {
+      "type": "origins:revoke_power",
+      "power": "layered-origins:gimmick/transparent_ephemeral",
+      "source": "layered-origins:grab_mob"
+    },
+    "condition": {
+      "type": "origins:riding",
+      "inverted": true
+    }
+  }
+}

@@ -4,7 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import rocnix.layeredorigins.StatusEffects.ModStatusEffects;
+import rocnix.layeredorigins.StatusEffects.LayeredOriginsStatusEffects;
 
 public class LayeredOrigins implements ModInitializer {
 	public static final String MOD_ID = "layered-origins";
@@ -17,6 +17,6 @@ public class LayeredOrigins implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello from Layered Origins");
-		ModStatusEffects.RegisterModStatusEffects();
+		LayeredOriginsStatusEffects.RegisterModStatusEffects();
 	}
 }

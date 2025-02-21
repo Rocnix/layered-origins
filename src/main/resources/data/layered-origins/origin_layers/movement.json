@@ -1,0 +1,10 @@
+{
+  "order": 1,
+  "origins": [
+    "layered-origins:movement/choose_later",
+    "origins:human",
+    "layered-origins:movement/zippy"
+  ],
+  "missing_name": "No Origin Found",
+  "missing_description": "You're don't have an origin. Pick a new one!"
+}

@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "layered-origins:movement/wings",
+    "layered-origins:movement/fly_dart"
+  ],
+  "icon": {
+    "item": "minecraft:clock"
+  },
+  "order": 0,
+  "impact": 1
+}

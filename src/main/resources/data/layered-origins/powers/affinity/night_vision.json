@@ -1,0 +1,17 @@
+{
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "vision": {
+    "type": "origins:night_vision",
+    "strength": 0.2,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "layered-origins:affinity/night_vision_toggle"
+    }
+  }
+}

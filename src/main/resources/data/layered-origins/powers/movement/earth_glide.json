@@ -1,0 +1,59 @@
+{
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "retain_state": false,
+    "key": {
+      "key": "key.origins.primary_active"
+    },
+    "condition": {
+      "type": "origins:food_level",
+      "comparison": ">=",
+      "compare_to": 7
+    }
+  },
+  "phasing": {
+    "type": "origins:phasing",
+    "blacklist": false,
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "layered-origins:burrowable"
+    },
+    "render_type": "blindness",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "layered-origins:movement/earth_glide_toggle"
+    },
+    "phase_down_condition": {
+      "type": "origins:swimming"
+    }
+  },
+  "swimming": {
+    "type": "origins:swimming",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "layered-origins:movement/earth_glide_toggle"
+        },
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:on_block"
+            },
+            {
+              "type": "origins:in_block_anywhere",
+              "block_condition": {
+                "type": "origins:in_tag",
+                "tag": "layered-origins:burrowable"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

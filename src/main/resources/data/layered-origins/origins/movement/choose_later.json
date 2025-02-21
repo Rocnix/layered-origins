@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "layered-origins:movement/choose_later"
+  ],
+  "icon": {
+    "item": "minecraft:clock"
+  },
+  "order": 0,
+  "impact": 0
+}a

@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "layered-origins:affinity/environment/prefers_dry_heat",
+    "layered-origins:affinity/environment/hindered_by_cold_wet"
+  ],
+  "icon": {
+    "item": "minecraft:cactus"
+  },
+  "order": 0,
+  "impact": 1
+}

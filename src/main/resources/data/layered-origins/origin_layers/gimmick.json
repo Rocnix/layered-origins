@@ -1,0 +1,10 @@
+{
+  "order": 0,
+  "origins": [
+    "layered-origins:gimmick/choose_later",
+    "origins:human",
+    "layered-origins:gimmick/snatcher"
+  ],
+  "missing_name": "No Origin Found",
+  "missing_description": "You're don't have an origin. Pick a new one!"
+}

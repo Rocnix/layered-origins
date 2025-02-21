@@ -1,0 +1,59 @@
+{
+  "badges": [
+    {
+      "type": "origins:keybind",
+      "sprite": "origins:textures/gui/badge/active.png",
+      "text": "Trigger with %s!"
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "layered-origins:textures/mob_effect/bad_environment.png",
+      "text": "This ability is disabled in an unsuitable environment."
+    }
+  ],
+  "type": "origins:active_self",
+  "cooldown": 5,
+  "hud_render": {
+    "should_render": false
+  },
+  "key": {
+    "key": "key.origins.primary_active"
+  },
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:food_level",
+      "comparison": ">=",
+      "compare_to": 7
+    },
+    "if_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:add_velocity",
+          "space": "local",
+          "z": 1
+        },
+        {
+          "type": "origins:exhaust",
+          "amount": 1
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.parrot.fly",
+          "volume": 1,
+          "pitch": 0.9
+        }
+      ]
+    },
+    "else_action": {
+      "type": "origins:execute_command",
+      "command": "title @s actionbar \"You're too hungry to keep flying.\""
+    }
+  },
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "layered-origins:bad_environment",
+    "inverted": true
+  }
+}

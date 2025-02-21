@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "layered-origins:gimmick/grab_mob"
+  ],
+  "icon": {
+    "item": "minecraft:lead"
+  },
+  "order": 0,
+  "impact": 2
+}

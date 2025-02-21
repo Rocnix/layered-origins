@@ -8,7 +8,20 @@
   "origin.layered-origins.affinity/choose_later.name": "Choose Later",
   "origin.layered-origins.affinity/choose_later.description": "You'll have no environmental preferences for now, but can replace this origin with another later.",
 
+  "origin.layered-origins.affinity/night_vision.name": "Night Vision",
+  "origin.layered-origins.affinity/night_vision.description": "You don't need a light source to see.",
 
+
+
+
+  "layer.layered-origins.gimmick.name": "Origin",
+
+  "origin.layered-origins.gimmick/choose_later.name": "Choose Later",
+  "origin.layered-origins.gimmick/choose_later.description": "You'll have no origin for now, but can replace this with another later.",
+
+
+  "power.layered-origins.gimmick/fly_dart.name": "Flap",
+  "power.layered-origins.gimmick/fly_dart.description": "You can gain a quick burst of speed in the direction you're facing, at the cost of some hunger.",
 
   "layer.layered-origins.size.name": "Height",
 
