@@ -1,10 +1,11 @@
 {
   "powers": [
     "layered-origins:movement/wings",
-    "layered-origins:movement/fly_dart"
+    "layered-origins:movement/fly_dart",
+    "layered-origins:movement/slow_when_grounded"
   ],
   "icon": {
-    "item": "minecraft:rocket"
+    "item": "minecraft:feather"
   },
   "order": 0,
   "impact": 1

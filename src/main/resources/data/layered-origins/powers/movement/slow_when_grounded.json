@@ -1,0 +1,25 @@
+{
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "multiply_base",
+    "value": -0.4,
+    "name": "Slow on Ground"
+  },
+  "tick_rate": 20,
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:fall_flying"
+      },
+      {
+        "type": "origins:sprinting"
+      },
+      {
+        "type": "origins:creative_flying"
+      }
+    ],
+    "inverted": true
+  }
+}

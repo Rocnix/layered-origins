@@ -1,4 +1,6 @@
 {
+  "name": "Short Name",
+  "description": "TODO: modify environment dependency to change hunger drain rate, rather than binary enable/disable",
   "badges": [
     {
       "type": "origins:keybind",
@@ -7,8 +9,8 @@
     },
     {
       "type": "origins:tooltip",
-      "sprite": "layered-origins:textures/mob_effect/bad_environment.png",
-      "text": "This ability is disabled in an unsuitable environment."
+      "sprite": "layered-origins:textures/icon/environment_dependent.png",
+      "text": "The hunger cost of this ability depends on your environment."
     }
   ],
   "type": "origins:active_self",
@@ -35,8 +37,38 @@
           "z": 1
         },
         {
-          "type": "origins:exhaust",
-          "amount": 1
+          "type": "origins:if_else_list",
+          "actions": [
+            {
+              "condition": {
+                "type": "origins:status_effect",
+                "effect": "layered-origins:bad_environment"
+              },
+              "action": {
+                "type": "origins:exhaust",
+                "amount": 4
+              }
+            },
+            {
+              "condition": {
+                "type": "origins:status_effect",
+                "effect": "layered-origins:good_environment"
+              },
+              "action": {
+                "type": "origins:exhaust",
+                "amount": 1
+              }
+            },
+            {
+              "condition": {
+                "type": "origins:exists"
+              },
+              "action": {
+                "type": "origins:exhaust",
+                "amount": 2
+              }
+            }
+          ]
         },
         {
           "type": "origins:play_sound",
