@@ -46,7 +46,7 @@
               },
               "action": {
                 "type": "origins:exhaust",
-                "amount": 4
+                "amount": 2
               }
             },
             {
@@ -56,7 +56,7 @@
               },
               "action": {
                 "type": "origins:exhaust",
-                "amount": 1
+                "amount": 0.8
               }
             },
             {
@@ -65,7 +65,7 @@
               },
               "action": {
                 "type": "origins:exhaust",
-                "amount": 2
+                "amount": 1.3
               }
             }
           ]
@@ -82,10 +82,5 @@
       "type": "origins:execute_command",
       "command": "title @s actionbar \"You're too hungry to keep flying.\""
     }
-  },
-  "condition": {
-    "type": "origins:status_effect",
-    "effect": "layered-origins:bad_environment",
-    "inverted": true
   }
 }
