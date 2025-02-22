@@ -1,0 +1,26 @@
+{
+  "type": "origins:recipe",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "id": "layered-origins:witch_brewing_stand_discount",
+    "pattern": [
+      " O ",
+      " R ",
+      "CCC"
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:orange_dye"
+      },
+      "R": {
+        "item": "minecraft:stick"
+      },
+      "C": {
+        "tag": "minecraft:stone_crafting_materials"
+      }
+    },
+    "result": {
+      "item": "minecraft:brewing_stand"
+    }
+  }
+}
