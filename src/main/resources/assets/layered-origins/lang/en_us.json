@@ -5,11 +5,21 @@
 
   "layer.layered-origins.affinity.name": "Habitat",
 
+  "origin.layered-origins.affinity/arid.name": "Arid Preference",
+  "origin.layered-origins.affinity/arid.description": "You're most at home in the desert and savanna.",
+
   "origin.layered-origins.affinity/choose_later.name": "Choose Later",
   "origin.layered-origins.affinity/choose_later.description": "You'll have no environmental preferences for now, but can replace this origin with another later.",
 
-  "origin.layered-origins.affinity/night_vision.name": "Night Vision",
-  "origin.layered-origins.affinity/night_vision.description": "You don't need a light source to see.",
+  "origin.layered-origins.affinity/darkness.name": "Dark Preference",
+  "origin.layered-origins.affinity/darkness.description": "You're most at home in unlit caves.",
+
+
+  "power.layered-origins.affinity/choose_later.name": "Placeholder Environment",
+  "power.layered-origins.affinity/choose_later.description": "Select a preferred environment by going to your View Origin menu (defaults to O), or by relogging.",
+
+  "power.layered-origins.affinity/night_vision.name": "Night Vision",
+  "power.layered-origins.affinity/night_vision.description": "You don't need a light source to see.",
 
 
 
@@ -19,9 +29,47 @@
   "origin.layered-origins.gimmick/choose_later.name": "Choose Later",
   "origin.layered-origins.gimmick/choose_later.description": "You'll have no origin for now, but can replace this with another later.",
 
+  "origin.layered-origins.gimmick/snatcher.name": "Snatcher",
+  "origin.layered-origins.gimmick/snatcher.description": "Everyone loves to resolve a fight with the grappling rules.",
+
+
+
+  "power.layered-origins.gimmick/choose_later.name": "Placeholder Origin",
+  "power.layered-origins.gimmick/choose_later.description": "Select an origin by going to your View Origin menu (defaults to O), or by relogging.",
 
   "power.layered-origins.gimmick/fly_dart.name": "Flap",
   "power.layered-origins.gimmick/fly_dart.description": "You can gain a quick burst of speed in the direction you're facing, at the cost of some hunger.",
+
+  "power.layered-origins.gimmick/grab_mob.name": "Yoink",
+  "power.layered-origins.gimmick/grab_mob.description": "Grab a mob by punching them. Release as an active ability, or wait for it to free itself.",
+
+  "power.layered-origins.gimmick/snatcher_forbid_item_use.name": "Unwieldy",
+  "power.layered-origins.gimmick/snatcher_forbid_item_use.description": "Your hands aren't built to use shields, bows, or spears.",
+
+
+
+  "layer.layered-origins.movement.name": "Movement",
+
+  "origin.layered-origins.movement/choose_later.name": "Choose Later",
+  "origin.layered-origins.movement/choose_later.description": "You'll have the default minecraft movements for now, but can replace this origin with another later.",
+
+  "origin.layered-origins.movement/zippy.name": "Quick Flight",
+  "origin.layered-origins.movement/zippy.description": "You can fly around with speed and precision, though you exhaust quickly.",
+
+
+  "power.layered-origins.movement/choose_later.name": "Placeholder Movement",
+  "power.layered-origins.movement/choose_later.description": "Select a movement option by going to your View Origin menu (defaults to O), or by relogging.",
+
+  "power.layered-origins.movement/fly_dart.name": "Dart",
+  "power.layered-origins.movement/fly_dart.description": "You can launch yourself forward at the cost of hunger. The cost depends on your environment.",
+
+  "power.layered-origins.movement/slow_when_grounded.name": "Slow Walker",
+  "power.layered-origins.movement/slow_when_grounded.description": "You move significantly slower when not in the air.",
+
+  "power.layered-origins.movement/wings.name": "Flight",
+  "power.layered-origins.movement/wings.description": "You have wings.",
+
+
 
   "layer.layered-origins.size.name": "Height",
 
