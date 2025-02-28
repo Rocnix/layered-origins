@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "layered-origins:curse/vegetarian"
+  ],
+  "icon": {
+    "item": "minecraft:carrot"
+  },
+  "order": 0,
+  "impact": 1
+}

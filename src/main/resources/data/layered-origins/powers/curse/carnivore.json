@@ -1,0 +1,37 @@
+{
+  "type": "origins:modify_food",
+  "food_multiplier": {
+    "name": "Food Intolerance",
+    "operation": "multiply_base_additive",
+    "value": -0.5
+  },
+  "entity_action": {
+    "type": "origins:chance",
+    "chance":  0.2,
+    "action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:hunger",
+        "duration": 200
+      }
+    }
+  },
+  "item_condition": {
+    "type": "origins:or",
+    "inverted": true,
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:meat"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        }
+      }
+    ]
+  }
+}

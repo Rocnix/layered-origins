@@ -1,0 +1,11 @@
+{
+  "order": 5,
+  "origins": [
+    "layered-origins:curse/choose_later",
+    "origins:human",
+    "layered-origins:curse/vegetarian",
+    "layered-origins:curse/carnivore"
+  ],
+  "missing_name": "No Drawback Found",
+  "missing_description": "You don't have a major debuff. How boring."
+}

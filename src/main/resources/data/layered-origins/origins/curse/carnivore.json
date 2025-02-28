@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "layered-origins:curse/carnivore"
+  ],
+  "icon": {
+    "item": "minecraft:porkchop"
+  },
+  "order": 0,
+  "impact": 1
+}

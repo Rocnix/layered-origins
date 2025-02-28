@@ -1,0 +1,84 @@
+{
+  "type": "origins:multiple",
+  "scoreboard": {
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "scoreboard objectives add FireTick dummy"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute store result score @s FireTick run gamerule doFireTick"
+        }
+      ]
+    }
+  },
+  "stay_on_fire": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:set_on_fire",
+      "duration": 6
+    },
+    "interval": 50,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:on_fire"
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "FireTick",
+          "comparison": "==",
+          "compare_to": 1
+        }
+      ]
+    }
+  },
+  "spread_fire": {
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+      "type": "origins:chance",
+      "action": {
+        "type": "origins:block_action_at",
+        "block_action": {
+          "type": "origins:set_block",
+          "block": "minecraft:fire"
+        }
+      },
+      "chance": 1
+    },
+    "damage_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:is_fire"
+    },
+    "cooldown": 1,
+    "condition": {
+     "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "FireTick",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:in_block",
+          "block_condition": {
+            "type": "origins:attachable"
+          }
+        },
+        {
+          "type": "origins:in_block",
+          "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:replaceable"
+          }
+        }
+      ]
+    }
+  }
+}
