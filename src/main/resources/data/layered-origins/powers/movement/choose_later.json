@@ -1,7 +1,24 @@
 {
-  "type": "origins:action_on_callback",
-  "entity_action_chosen": {
-    "type": "origins:execute_command",
-    "command": "origin set @s layered-origins:movement origins:empty"
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:give",
+    "stack": {
+      "item": "origins:orb_of_origin",
+      "amount": 1,
+      "tag": "{Targets: [{Layer: \"layered-origins:movement\"}]}"
+    },
+    "item_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:modify",
+          "modifier": "layered-origins:movement_mainhand"
+        },
+        {
+          "type": "origins:modify",
+          "modifier": "layered-origins:movement_offhand"
+        }
+      ]
+    }
   }
 }

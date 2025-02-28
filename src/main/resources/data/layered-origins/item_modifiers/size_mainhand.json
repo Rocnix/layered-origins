@@ -1,0 +1,5 @@
+{
+  "function": "apoli:add_power",
+  "power": "layered-origins:item/restrict_orb_size",
+  "slot": "mainhand"
+}

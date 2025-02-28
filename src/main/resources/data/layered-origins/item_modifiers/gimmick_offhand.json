@@ -1,0 +1,6 @@
+{
+  "function": "apoli:add_power",
+  "power": "layered-origins:item/restrict_orb_gimmick",
+  "slot": "offhand",
+  "hidden": true
+}
